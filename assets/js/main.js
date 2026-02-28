@@ -137,7 +137,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 });
 
 document.getElementById('copy-iban-btn').addEventListener('click', function() {
-    const iban = 'IT39Z0306968950100000002633';
+    const iban = 'IT51S0366901600570810501583';
     navigator.clipboard.writeText(iban).then(() => {
         const button = document.getElementById('copy-iban-btn');
         button.textContent = 'Copiato!';
