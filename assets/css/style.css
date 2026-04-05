@@ -575,13 +575,13 @@ p {
 }
 
 .modal .modal-header {
-  background-color: #CFC29F;
+  background-color: #8A988E;
 }
 .modal .modal-body code {
   color: #2D3C49;
 }
 .modal .modal-footer {
-  background-color: #CFC29F;
+  background-color: #8A988E;
   display: block;
 }
 .modal .modal-footer a {
@@ -976,7 +976,7 @@ p {
 }
 .slider_content .slider_title span {
   display: contents;
-  color: #CFC29F;
+  color: #8A988E;
 }
 .slider_content .location {
   font-size: 30px;
