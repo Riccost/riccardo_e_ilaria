@@ -126,7 +126,7 @@ p {
   -ms-user-select: none;
   user-select: none;
 
-  border: 2px solid #8A988E; /* Nuovo colore */
+  border: 2px solid #4A5568; /* Nuovo colore */
   
   padding: 0 20px;
   font-size: 16px;
@@ -142,7 +142,7 @@ p {
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
 
-  background-color: #8A988E; /* Nuovo colore */
+  background-color: #4A5568; /* Nuovo colore */
 
   -webkit-box-shadow: 0px 15px 40px 0px rgba(138, 152, 142, 0.34);
   -moz-box-shadow: 0px 15px 40px 0px rgba(138, 152, 142, 0.34);
@@ -151,25 +151,25 @@ p {
 
 .main-btn:hover {
   background-color: #fff;
-  color: #8A988E;
-  border-color: #8A988E;
+  color: #4A5568;
+  border-color: #4A5568;
 }
 
 .main-btn.inverted {
   border: 2px solid #fff;
-  color: #8A988E;
+  color: #4A5568;
   background-color: #fff;
 }
 
 .main-btn.main-btn-2 {
   background-color: #fff;
-  color: #8A988E;
-  border-color: #8A988E;
+  color: #4A5568;
+  border-color: #4A5568;
 }
 
 .main-btn.main-btn-2:hover {
-  background-color: #8A988E;
-  border-color: #8A988E;
+  background-color: #4A5568;
+  border-color: #4A5568;
   color: #fff;
 }
 
@@ -276,14 +276,14 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #8A988E #8A988E #CFC29F;
+  border-color: #4A5568 #4A5568 #D4B896;
   border-radius: 50%;
   border-width: 6px;
 }
 .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
   left: 0;
   right: -100%;
-  border-right-color: #CFC29F;
+  border-right-color: #D4B896;
   -webkit-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   -moz-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   -o-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -292,7 +292,7 @@ p {
 .preloader .loader .ytp-spinner-right .ytp-spinner-circle {
   left: -100%;
   right: 0;
-  border-left-color: #CFC29F;
+  border-left-color: #D4B896;
   -webkit-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   -moz-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   -o-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -554,14 +554,14 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: #CFC29F 6px 6px 0px 0px;
+  box-shadow: #D4B896 6px 6px 0px 0px;
 }
 
 .swiper-pagination {
   bottom: 20px !important;
 }
 .swiper-pagination .swiper-pagination-bullet {
-  background-color: #8A988E;
+  background-color: #4A5568;
   width: 8px;
   height: 8px;
 }
@@ -571,17 +571,17 @@ p {
 }
 
 .swiper-button-next, .swiper-button-prev {
-  color: #8A988E;
+  color: #F7F3EE;
 }
 
 .modal .modal-header {
-  background-color: #8A988E;
+  background-color: #4A5568;
 }
 .modal .modal-body code {
   color: #2D3C49;
 }
 .modal .modal-footer {
-  background-color: #8A988E;
+  background-color: #4A5568;
   display: block;
 }
 .modal .modal-footer a {
@@ -594,7 +594,7 @@ p {
 }
 
 .shadow-theme {
-  box-shadow: #CFC29F 6px 6px 0px 0px;
+  box-shadow: #D4B896 6px 6px 0px 0px;
 }
 
 .wide-btn {
@@ -670,7 +670,7 @@ p {
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: #8A988E;
+  background-color: #4A5568;
   display: block;
   margin: 5px 0;
   position: relative;
@@ -849,7 +849,7 @@ p {
 }
 .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
-  color: #8A988E;
+  color: #4A5568;
 }
 .navbar-nav .sub-nav-toggler {
   display: none;
@@ -897,14 +897,14 @@ p {
 }
 
 .sticky .navbar-toggler .toggler-icon {
-  background-color: #8A988E;
+  background-color: #4A5568;
 }
 .sticky .navbar-nav .nav-item a {
-  color: #8A988E;
+  color: #4A5568;
   padding-top: 6px;
 }
 .sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
-  color: #8A988E;
+  color: #4A5568;
 }
 
 /*===== SLIDER =====*/
@@ -976,7 +976,7 @@ p {
 }
 .slider_content .slider_title span {
   display: contents;
-  color: #8A988E;
+  color: #4A5568;
 }
 .slider_content .location {
   font-size: 30px;
@@ -1088,8 +1088,8 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .slider-active .slick-arrow:hover i {
-  color: #CFC29F;
-  border-color: #CFC29F;
+  color: #D4B896;
+  border-color: #D4B896;
 }
 .slider-active .slick-arrow.next {
   right: 0;
@@ -1177,7 +1177,7 @@ p {
 }
 .single_couple .couple_content .couple_name {
   font-size: 40px;
-  color: #8A988E;
+  color: #4A5568;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single_couple .couple_content .couple_name {
@@ -1221,8 +1221,8 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .single_couple .couple_content .social li a:hover {
-  border-color: #8A988E;
-  background-color: #8A988E;
+  border-color: #4A5568;
+  background-color: #4A5568;
   color: #fff;
 }
 .single_couple:hover .couple_image img {
@@ -1242,10 +1242,16 @@ p {
      04.COMING SOON css 
 ===========================*/
 .coming_soon_area {
-  background-color: #CFC29F;
+  background-color: #4A5568;
   position: relative;
   overflow: hidden;
   z-index: 5;
+}
+
+.coming_soon_area .section_title,
+.coming_soon_area .section_title p,
+.coming_soon_area .section_title .title {
+  color: #ffffff;
 }
 
 .coming_soon_shape_1 {
@@ -1256,7 +1262,7 @@ p {
 }
 .coming_soon_shape_1 img {
   width: 130px;
-  opacity: 0.31;
+  opacity: 0.8;
 }
 
 .coming_soon_shape_2 {
@@ -1267,14 +1273,14 @@ p {
 }
 .coming_soon_shape_2 img {
   width: 130px;
-  opacity: 0.31;
+  opacity: 0.8;
 }
 
 .coming_soon_count .single_count {
   width: 150px;
   height: 150px;
   text-align: center;
-  background-color: #405369;
+  background-color:  rgba(255,255,255,0.15);
   border-radius: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -1395,7 +1401,7 @@ p {
   height: 100%;
   position: absolute;
   content: "";
-  background-color: #8A988E;
+  background-color: #4A5568;
   left: 50%;
   top: 0;
   -webkit-transform: translateX(-50%);
@@ -1440,8 +1446,8 @@ p {
 .single_love .love_date p {
   width: 40px;
   position: relative;
-  color: #8A988E;
-  border: 2px solid #8A988E;
+  color: #4A5568;
+  border: 2px solid #4A5568;
   border-radius: 50px;
   font-size: 14px;
   padding: 2px;
@@ -1469,7 +1475,7 @@ p {
   text-align: center;
   border: none;
   border-radius: 50%;
-  color: #8A988E;
+  color: #4A5568;
   position: absolute;
   top: -1px;
   left: -1px;
@@ -1634,7 +1640,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .single_event .event_content .event_title a:hover {
-  color: #8A988E;
+  color: #4A5568;
 }
 .single_event .event_content p {
   margin-top: 15px;
@@ -1649,7 +1655,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .single_event .event_content .more:hover {
-  color: #8A988E;
+  color: #4A5568;
 }
 .single_event:hover .event_image img {
   -webkit-transform: scale(1.1);
@@ -1668,7 +1674,7 @@ p {
     09.TESTIMONIAL css 
 ===========================*/
 .testimonial_area {
-  background-color: #CFC29F;
+  background-color: #4A5568;
   position: relative;
   overflow: hidden;
   z-index: 9;
@@ -1682,7 +1688,7 @@ p {
 }
 .testimonial_shape_1 img {
   width: 130px;
-  opacity: 0.31;
+  opacity: 0.8;
 }
 
 .testimonial_shape_2 {
@@ -1693,7 +1699,7 @@ p {
 }
 .testimonial_shape_2 img {
   width: 130px;
-  opacity: 0.31;
+  opacity: 0.8;
 }
 
 .single_testimonial .testimonial_author img {
@@ -1771,8 +1777,8 @@ p {
   }
 }
 .testimonial_wrapper .slick-arrow:hover i {
-  color: #8A988E;
-  border-color: #8A988E;
+  color: #4A5568;
+  border-color: #4A5568;
 }
 .testimonial_wrapper .slick-arrow.next {
   right: -150px;
@@ -1844,7 +1850,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
   font-family: "Noto Serif", serif;
   font-weight: 500;
   font-size: 18px;
-  background-color: #CFC29F;
+  background-color: #D4B896;
   color: #2D3C49;
 }
 .accordion .accordion-button.collapsed {
@@ -1855,7 +1861,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
        11.FOOTER css 
 ===========================*/
 .footer_area {
-  background-color: #CFC29F;
+  background-color: #4A5568;
   position: relative;
   z-index: 9;
   overflow: hidden;
@@ -1869,7 +1875,18 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 .footer_shape_1 img {
   width: 130px;
-  opacity: 0.31;
+  opacity: 0.8;
+}
+
+.footer_shape_3 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  z-index: -1;
+}
+.footer_shape_3 img {
+  width: 130px;
+  opacity: 1;
 }
 
 @media (max-width: 767px) {
@@ -1882,7 +1899,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 .footer_widget .footer_title .title {
   font-size: 52px;
-  color: #2D3C49;
+  color: #F7F3EE;
 }
 @media (max-width: 767px) {
   .footer_widget .footer_title .title {
@@ -1890,7 +1907,10 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
   }
 }
 .footer_widget .footer_title .title span {
-  color: #8A988E;
+  color: #D4B896;
+}
+.footer_widget .footer_title p {
+  color: #F7F3EE;
 }
 .footer_widget .footer_menu {
   margin-top: 30px;
@@ -1901,7 +1921,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 .footer_widget .footer_menu li a {
   font-size: 16px;
-  color: #2D3C49;
+  color: #F7F3EE;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1909,11 +1929,11 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
   transition: all 0.3s ease-out 0s;
 }
 .footer_widget .footer_menu li a:hover {
-  color: #8A988E;
+  color: #D4B896;
 }
 
 .footer_copyright {
-  border-top: 2px solid #8A988E;
+  border-top: 2px solid #4A5568;
   padding: 40px 0;
 }
 /*===== BACK TO TOP =====*/
@@ -1927,7 +1947,7 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
-  background-color: #8A988E;
+  background-color: #4A5568;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1939,5 +1959,11 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 .back-to-top:hover {
   color: #fff;
-  background-color: #8A988E;
+  background-color: #4A5568;
+}
+/*===== TESTO BIANCO SEZIONE VIAGGIO DI NOZZE =====*/
+.testimonial_area .section_title .title,
+.testimonial_area .section_title p,
+.testimonial_area p {
+  color: #F7F3EE;
 }
