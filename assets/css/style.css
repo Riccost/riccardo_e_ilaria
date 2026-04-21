@@ -1444,19 +1444,19 @@ p {
   }
 }
 .single_love .love_date p {
-  width: 40px;
-  position: relative;
-  color: #4A5568;
-  border: 2px solid #4A5568;
-  border-radius: 50px;
-  font-size: 14px;
-  padding: 2px;
-  position: relative;
-  line-height: 35px;
-  padding-bottom: 32px;
-  padding-top: 62px;
-  background-color: #fff;
+  display: none;
+}
+
+.single_love .love_date .love_icon_img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 4px;
 }
 @media (max-width: 767px) {
   .single_love .love_date p {
