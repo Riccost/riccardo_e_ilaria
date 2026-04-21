@@ -119,7 +119,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     var jsonData = Object.fromEntries(formData.entries());
 
     // Send data to make.com webhook
-    var webhookUrl = "https://hook.eu2.make.com/o7hpg25tb51l4msn283eyvdfrbe6ssxa";
+    var webhookUrl = "https://hook.eu2.make.com/uxp76yt5yqan6126r4ofs2x2qsr06sca";
     fetch(webhookUrl, {
         method: 'POST',
         headers: {
