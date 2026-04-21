@@ -112,14 +112,13 @@ $(function () {
 
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault();
 
-    // Get form data
     var formData = new FormData(this);
     var jsonData = Object.fromEntries(formData.entries());
 
-    // Send data to make.com webhook
     var webhookUrl = "https://hook.eu2.make.com/uxp76yt5yqan6126r4ofs2x2qsr06sca";
+    
     fetch(webhookUrl, {
         method: 'POST',
         headers: {
@@ -128,11 +127,11 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         body: JSON.stringify(jsonData)
     })
     .then(response => response.text())
-    .then(
-        document.getElementById('contact-title-row').classList.add('d-none'),
-        document.getElementById('contact-form').classList.add('d-none'),
-        document.getElementById('contact-ty-row').classList.remove('d-none'),
-    )
+    .then(() => {  // ← parentesi della arrow function
+        document.getElementById('contact-title-row').classList.add('d-none');
+        document.getElementById('contact-form').classList.add('d-none');
+        document.getElementById('contact-ty-row').classList.remove('d-none');
+    })
     .catch(error => console.error('Error:', error));
 });
 
