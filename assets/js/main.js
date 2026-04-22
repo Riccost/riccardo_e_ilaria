@@ -117,7 +117,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     var formData = new FormData(this);
     var jsonData = Object.fromEntries(formData.entries());
 
-    var webhookUrl = "https://hook.eu2.make.com/uxp76yt5yqan6126r4ofs2x2qsr06sca";
+    var webhookUrl = "https://hook.eu2.make.com/pl1gjtunfmhu968j9r22iq2hi9pxt4zv";
     
     fetch(webhookUrl, {
         method: 'POST',
